@@ -16,9 +16,9 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/avatar.jpg";
-import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import team1 from "assets/img/faces/kali-square.png";
+import team2 from "assets/img/faces/kali-square.png";
+import team3 from "assets/img/faces/kali-square.png";
 
 const useStyles = makeStyles(styles);
 
@@ -40,7 +40,7 @@ export default function TeamSection() {
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Gigi Hadid
+                Sebastion
                 <br />
                 <small className={classes.smallTitle}>Model</small>
               </h4>
@@ -83,7 +83,7 @@ export default function TeamSection() {
                 <img src={team2} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Christian Louboutin
+                Wayill
                 <br />
                 <small className={classes.smallTitle}>Designer</small>
               </h4>
@@ -119,7 +119,7 @@ export default function TeamSection() {
                 <img src={team3} alt="..." className={imageClasses} />
               </GridItem>
               <h4 className={classes.cardTitle}>
-                Kendall Jenner
+                Testa De Nevill
                 <br />
                 <small className={classes.smallTitle}>Model</small>
               </h4>
