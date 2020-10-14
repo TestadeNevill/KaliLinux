@@ -37,7 +37,7 @@ export default function LoginPage(props) {
       <Header
         absolute
         color="transparent"
-        brand="NextJS Material Kit"
+        brand="Linux Project Hub"
         rightLinks={<HeaderLinks />}
         {...rest}
       />
@@ -147,7 +147,6 @@ export default function LoginPage(props) {
             </GridItem>
           </GridContainer>
         </div>
-        <Footer whiteFont />
       </div>
     </div>
   );

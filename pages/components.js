@@ -38,7 +38,7 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="NextJS Material Kit"
+        brand="Linux Project Hub"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>NextJS Material Kit.</h1>
+                <h1 className={classes.title}>Final Project Linux Repo</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material Kit based on Material-UI and NextJS.
+                  Protect yourself and your loved ones. We are proud provide the most Badass Library with everything you need.
                 </h3>
               </div>
             </GridItem>
