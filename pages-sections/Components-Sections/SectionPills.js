@@ -3,8 +3,11 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 
 // @material-ui/icons
-import Dashboard from "@material-ui/icons/Dashboard";
-import Schedule from "@material-ui/icons/Schedule";
+import LocationSearchingIcon from "@material-ui/icons/LocationSearching";
+import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
+import BugReportIcon from "@material-ui/icons/BugReport";
+import OfflineBoltIcon from '@material-ui/icons/OfflineBolt';
+import PersonIcon from '@material-ui/icons/Person';
 import List from "@material-ui/icons/List";
 
 // core components
@@ -23,11 +26,11 @@ export default function SectionPills() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h3>Navigation Pills</h3>
+            <h1>Support</h1>
           </div>
           <div className={classes.title}>
             <h3>
-              <small>With Icons</small>
+              <medium> explanation of services </medium>
             </h3>
           </div>
           <GridContainer>
@@ -36,128 +39,130 @@ export default function SectionPills() {
                 color="primary"
                 tabs={[
                   {
-                    tabButton: "Dashboard",
-                    tabIcon: Dashboard,
+                    tabButton: "Threats",
+                    tabIcon: BugReportIcon,
                     tabContent: (
                       <span>
                         <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing 
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                       </span>
-                    )
+                    ),
                   },
                   {
-                    tabButton: "Schedule",
-                    tabIcon: Schedule,
+                    tabButton: "Targeted",
+                    tabIcon: LocationSearchingIcon,
                     tabContent: (
                       <span>
                         <p>
-                          Efficiently unleash cross-media information without
-                          cross-media value. Quickly maximize timely
-                          deliverables for real-time schemas.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically maintain clicks-and-mortar solutions
-                          without functional solutions. Dramatically visualize
-                          customer directed convergence without revolutionary
-                          ROI. Collaboratively administrate empowered markets
-                          via plug-and-play networks. Dynamically procrastinate
-                          B2C users after installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                       </span>
-                    )
+                    ),
                   },
                   {
-                    tabButton: "Tasks",
-                    tabIcon: List,
+                    tabButton: "Risks",
+                    tabIcon: ErrorOutlineIcon,
                     tabContent: (
                       <span>
                         <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                       </span>
-                    )
-                  }
+                    ),
+                  },
                 ]}
               />
             </GridItem>
             <GridItem xs={12} sm={12} md={12} lg={6}>
               <NavPills
-                color="rose"
+                color="primary"
                 horizontal={{
                   tabsGrid: { xs: 12, sm: 4, md: 4 },
-                  contentGrid: { xs: 12, sm: 8, md: 8 }
+                  contentGrid: { xs: 12, sm: 8, md: 8 },
                 }}
                 tabs={[
                   {
-                    tabButton: "Dashboard",
-                    tabIcon: Dashboard,
+                    tabButton: "Powerful",
+                    tabIcon: OfflineBoltIcon,
                     tabContent: (
                       <span>
                         <p>
-                          Collaboratively administrate empowered markets via
-                          plug-and-play networks. Dynamically procrastinate B2C
-                          users after installed base benefits.
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Nulla sollicitudin blandit massa sed
+                          consectetur. Nulla sollicitudin blandit massa sed
+                          consectetur.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Nullam non viverra massa. Ut lobortis dignissim
+                          iaculis. Vivamus eleifend sapien a augue rutrum
+                          condimentum. Class aptent taciti sociosqu ad litora
+                          torquent per conubia nostra, per inceptos himenaeos.
+                          Orci varius natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Curabitur eget felis
+                          lacus.
                         </p>
                         <br />
                         <p>
-                          Dramatically visualize customer directed convergence
-                          without revolutionary ROI. Collaboratively
-                          administrate empowered markets via plug-and-play
-                          networks. Dynamically procrastinate B2C users after
-                          installed base benefits.
+                          Nullam non viverra massa. Ut lobortis dignissim
+                          iaculis. Vivamus eleifend sapien a augue rutrum
+                          condimentum. Class aptent taciti sociosqu ad litora
+                          torquent per conubia nostra, per inceptos himenaeos.
+                          Orci varius natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Curabitur eget felis
+                          lacus.
                         </p>
                       </span>
-                    )
+                    ),
                   },
                   {
-                    tabButton: "Schedule",
-                    tabIcon: Schedule,
+                    tabButton: "Personalised",
+                    tabIcon: PersonIcon,
                     tabContent: (
                       <span>
                         <p>
@@ -167,16 +172,20 @@ export default function SectionPills() {
                         </p>
                         <br />
                         <p>
-                          Dramatically maintain clicks-and-mortar solutions
-                          without functional solutions. Dramatically visualize
-                          customer directed convergence without revolutionary
-                          ROI. Collaboratively administrate empowered markets
-                          via plug-and-play networks. Dynamically procrastinate
-                          B2C users after installed base benefits.
+                          Nullam non viverra massa. Ut lobortis dignissim
+                          iaculis. Vivamus eleifend sapien a augue rutrum
+                          condimentum. Class aptent taciti sociosqu ad litora
+                          torquent per conubia nostra, per inceptos himenaeos.
+                          Orci varius natoque penatibus et magnis dis parturient
+                          montes, nascetur ridiculus mus. Curabitur eget felis
+                          lacus. Nulla egestas velit sed blandit pretium.
+                          Curabitur purus tortor, porta nec accumsan id,
+                          hendrerit quis urna. In velit sem, congue a lacus sit
+                          amet, tempus aliquam erat. Aenean commodo rutrum.
                         </p>
                       </span>
-                    )
-                  }
+                    ),
+                  },
                 ]}
               />
             </GridItem>
