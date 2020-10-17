@@ -19,6 +19,7 @@ import SectionBasics from "pages-sections/Components-Sections/SectionBasics.js";
 import SectionNavbars from "pages-sections/Components-Sections/SectionNavbars.js";
 import SectionTabs from "pages-sections/Components-Sections/SectionTabs.js";
 import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
+import SecondPills from "pages-sections/Components-Sections/SecondPills.js";
 import SectionNotifications from "pages-sections/Components-Sections/SectionNotifications.js";
 import SectionTypography from "pages-sections/Components-Sections/SectionTypography.js";
 import SectionJavascript from "pages-sections/Components-Sections/SectionJavascript.js";
@@ -38,13 +39,13 @@ export default function Components(props) {
   return (
     <div>
       <Header
-        brand="Linux Project Hub"
+        brand=" SWD Information Security  "
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -53,9 +54,10 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Final Project Linux Repo</h1>
+                <h1 className={classes.title}>SWD Information Security</h1>
                 <h3 className={classes.subtitle}>
-                  Protect yourself and your loved ones. We are proud provide the most Badass Library with everything you need.
+                  You shouldn't feel like you are alone and neither should your
+                  loved ones
                 </h3>
               </div>
             </GridItem>
@@ -64,27 +66,15 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionBasics />
-        <SectionNavbars />
-        <SectionTabs />
         <SectionPills />
-        <SectionNotifications />
-        <SectionTypography />
-        <SectionJavascript />
         <SectionCarousel />
+        <SecondPills />
+        {/*<SectionTypography />
+        <SectionJavascript />
         <SectionCompletedExamples />
         <SectionLogin />
-        <GridItem md={12} className={classes.textCenter}>
-          <Link href="/login">
-            <a className={classes.link}>
-              <Button color="primary" size="lg" simple>
-                View Login Page
-              </Button>
-            </a>
-          </Link>
-        </GridItem>
         <SectionExamples />
-        <SectionDownload />
+        <SectionDownload />*/}
       </div>
       <Footer />
     </div>

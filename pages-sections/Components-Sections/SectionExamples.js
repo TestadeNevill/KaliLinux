@@ -10,7 +10,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import landing from "assets/img/landing.jpg";
+import landing from "assets/img/landing.png";
 import profile from "assets/img/profile.jpg";
 
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/exampleStyle.js";
