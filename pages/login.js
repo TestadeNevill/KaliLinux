@@ -21,7 +21,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
-import image from "assets/img/bg7.jpg";
+import image from "assets/img/login.gif";
 
 const useStyles = makeStyles(styles);
 

@@ -49,7 +49,7 @@ export default function Components(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/nextjs_header.jpg")}>
+      <Parallax image={require("assets/img/nextjs_header-8d8c368447b54880206b3563e9c24d92.gif")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>
@@ -69,12 +69,7 @@ export default function Components(props) {
         <SectionPills />
         <SectionCarousel />
         <SecondPills />
-        {/*<SectionTypography />
-        <SectionJavascript />
-        <SectionCompletedExamples />
-        <SectionLogin />
-        <SectionExamples />
-        <SectionDownload />*/}
+        <SectionDownload />
       </div>
       <Footer />
     </div>
