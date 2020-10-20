@@ -26,11 +26,11 @@ export default function SectionPills() {
       <div className={classes.container}>
         <div id="navigation-pills">
           <div className={classes.title}>
-            <h2>Change Title</h2>
+            <h2>Types of Hackers</h2>
           </div>
           <div className={classes.title}>
             <h3>
-              <small>add info</small>
+              <small>Here's a debriefing on types of hackers</small>
             </h3>
           </div>
           <GridContainer>
@@ -44,24 +44,43 @@ export default function SectionPills() {
                     tabContent: (
                       <span>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing 
-                          elit. Nulla sollicitudin blandit massa sed
-                          consectetur. Nulla sollicitudin blandit massa sed
-                          consectetur.
+                          Black Hat
+
+                          The stereotypical ‘hacker’ – the kind you hear about on the news.
                         </p>
                         <br />
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nulla sollicitudin blandit massa sed
-                          consectetur. Nulla sollicitudin blandit massa sed
-                          consectetur.
+                          White Hat
+
+                          The Yang to the Black Hat’s Yin, White Hat hackers are the polar opposite of the Black Hat in every way.
                         </p>
                         <br />
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nulla sollicitudin blandit massa sed
-                          consectetur. Nulla sollicitudin blandit massa sed
-                          consectetur.
+                          Grey Hat
+
+                          Nothing in life is black and white, and neither is hacking.
+                        </p>
+                        <br />
+                        <p>
+                          Blue Hat
+
+                          Vengeful and aggressive in every way- but only if you create them.
+                        </p>
+                        <br />
+                        <p>
+                          Red Hat
+
+                          The caped crusaders of the cyber world.
+                        </p>
+                        <br />
+                        <p>
+                          Baby hackers taking their first steps in the cyber world.
+                        </p>
+                        <br />
+                        <p>
+                          Script Kiddie
+
+                          This is something of an ‘odd one out’, since it’s neither a hat or a colour! But a Script Kiddie can still cause problems, no matter how innocent the name sounds.
                         </p>
                       </span>
                     ),
@@ -72,17 +91,63 @@ export default function SectionPills() {
                     tabContent: (
                       <span>
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nulla sollicitudin blandit massa sed
-                          consectetur. Nulla sollicitudin blandit massa sed
-                          consectetur.
+                          Motives: Financial gain.
+
+                          Aims: To break into your business and steal bank details, money or confidential data. They usually use these stolen resources for their own gain, to sell on to the black market or to extort the target business.
+
+                          What That Means for You: Black Hat hackers are at the top of the business risk list. Their methods are varied but basic, so they can be protected against. But if their attacks are successful, the results could be devastating for your business and your customers.
                         </p>
                         <br />
                         <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing
-                          elit. Nulla sollicitudin blandit massa sed
-                          consectetur. Nulla sollicitudin blandit massa sed
-                          consectetur.
+                          Motives: A desire to help businesses, along with a passion for finding holes in security networks.
+
+                          Aims: To protect businesses and support them in the ongoing battle against cyber threats.  A White Hat hacker is someone like us – a company or individual who will help you protect your business. They can help you put effective protections in place, find vulnerabilities and provide solutions to solve them, before other hackers find them. There is even a qualification and organisation specifically for them – the CEH (Certified Ethical Hacker) from the EC Council.
+
+                          What That Means for You: A business that is well protected from every angle of attack in the digital world, and ongoing support in case of a breach.
+                        </p>
+                        <br />
+                        <p>
+                          Motives: Personal enjoyment.
+
+                          Aims: Grey Hat hackers have all the skills of a Black and a White Hat hacker. The difference is, they don’t care about stealing from people, nor do they particularly want to help people. Instead, they like to play with systems and enjoy the challenge of finding gaps, breaking protections and generally just find hacking fun.
+
+                          What That Means for You: Despite their skill set and the fact that they do break into systems, Grey Hat hackers will rarely do anything harmful. They break into things because they can, and then move on. Grey Hat hackers actually make up the majority of the hacking community, even though it’s the Black Hat’s most people know about.
+                        </p>
+                        <br />
+                        <p>
+                          Motives: Revenge.
+
+                          Aims: Blue Hat hackers often take existing code for malware and viruses they find online, then modify it to meet their needs. They will use this code to target the business or individual they feel has wronged them and inflict their revenge.
+
+                          What That Means for You: Generally, only a problem if you’ve made someone very, very angry. This could be a customer, supplier or employee – anyone who might be so angry that they want to ‘make you pay’.
+                        </p>
+                        <br />
+                        <p>
+                          Motives: Vigilante justice.
+
+                          Aims: To put a stop to people they know to be Black Hat hackers. But they are downright scary in how they go about it. They essentially take the Black Hat’s arsenal and turn it back against them. Using malware, DoS attacks, viruses and Trojan Horses to destroy their machines from the inside out. It’s a pretty effective way of stopping them from attacking anyone else!
+
+                          What That Means for You: Nothing really. Red Hat hackers are similar to White Hat ones, in the sense that they are working to put a stop to Black Hat attacks on your business. But you probably won’t know about it.
+                        </p>
+                        <br />
+                        <p>
+                          Motives: Learning to be full blown hackers.
+
+                          Aims: Green Hat hackers are all about the learning. They are new to the world of scripting, coding and hacking in general, so you probably won’t find one attacking. Instead, they hang around online message boards asking questions of more developed hackers, honing their skills.
+
+                          What That Means for You: Green Hat hackers don’t really represent a threat to businesses. They are still ‘green’, and more interested in learning how to hack than actually doing it..
+                        </p>
+                        <br />
+                        <p>
+                          Motives: Causing chaos and disruption.
+
+                          Aims: Script Kiddies have no interest in things as mundane as theft. Or, as it turns out, script. They don’t tend to develop their own software – instead they download existing malware development software and watch videos on how to use it. When they’re confident, they’ll attack. A typical Script Kiddie attack would be a DoS (Denial of Service) or DDoS (Distributed Denial of Service). This basically means they flood an IP address with so much useless traffic that it collapses. Think most retail websites on Black Friday. It causes chaos and prevents anyone else from using the service.
+
+                          What That Means for You: While they might not present a financial risk, Script Kiddies can be a pain. They can cause disruption to your business that can damage your reputation or lose you customers, and it can take some time to get everything back online afterwards.
+
+                          So hopefully that clears a few things up and gives you a bit of an insight into the world of hacking in all its colour! At Bridewell, our job as White Hat hackers is to keep all of the other hackers out of your business by identifying weaknesses; protecting you, your clients and your data. For more information or to enquire about out security testing process, get in touch with us today.
+
+
                         </p>
                       </span>
                     ),
