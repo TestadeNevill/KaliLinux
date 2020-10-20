@@ -54,12 +54,12 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="library"
+          href="components "
           color="transparent"
           target="_blank"
           className={classes.navLink}
         >
-          <AccountTreeIcon className={classes.icons}/> Our Library
+          <AccountTreeIcon className={classes.icons}/> About us
         </Button>
       </ListItem>
       <ListItem className={classes.listItem}>
