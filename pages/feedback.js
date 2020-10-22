@@ -1,8 +1,6 @@
 import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
-// react components for routing our app without refresh
-import Link from "next/link";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
@@ -14,11 +12,8 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Parallax from "components/Parallax/Parallax.js";
 // sections for this page
-import SectionDownload from "pages-sections/Components-Sections/SectionDownload.js";
-import SectionPills from "pages-sections/Components-Sections/SectionPills.js";
-import SecondPills from "pages-sections/Components-Sections/SecondPills.js";
-import SectionCarousel from "pages-sections/Components-Sections/SectionCarousel.js";
 import styles from "assets/jss/nextjs-material-kit/pages/components.js";
+import FeedbackSection from "pages-sections/LandingPage-Sections/FeedbackSection.js";
 
 const useStyles = makeStyles(styles);
 
@@ -43,11 +38,7 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>SWD Information Security</h1>
-                <h3 className={classes.subtitle}>
-                  You shouldn't feel like you are alone and neither should your
-                  loved ones
-                </h3>
+                <h1 className={classes.title}>Let's Get in Touch</h1>
               </div>
             </GridItem>
           </GridContainer>
@@ -55,10 +46,7 @@ export default function Components(props) {
       </Parallax>
 
       <div className={classNames(classes.main, classes.mainRaised)}>
-        <SectionPills />
-        <SectionCarousel />
-        <SecondPills/>
-        <SectionDownload/>
+        <FeedbackSection />
       </div>
       <Footer />
     </div>

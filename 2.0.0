@@ -1,0 +1,16 @@
++ axios@0.19.2
++ react@16.3.0
++ yup@0.27.0
++ reactstrap@8.0.0
++ formik@2.0.1
++ @availity/api-axios@5.5.9
++ @availity/feedback@5.4.15
++ @availity/localstorage-core@2.6.1
++ @availity/api-core@6.6.4
+updated 9 packages and audited 1406 packages in 24.219s
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (4 low, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
