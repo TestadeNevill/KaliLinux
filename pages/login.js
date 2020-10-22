@@ -27,7 +27,7 @@ const useStyles = makeStyles(styles);
 
 export default function LoginPage(props) {
   const [cardAnimaton, setCardAnimation] = React.useState("cardHidden");
-  setTimeout(function() {
+  setTimeout(function () {
     setCardAnimation("");
   }, 700);
   const classes = useStyles();
@@ -46,7 +46,7 @@ export default function LoginPage(props) {
         style={{
           backgroundImage: "url(" + image + ")",
           backgroundSize: "cover",
-          backgroundPosition: "top center"
+          backgroundPosition: "top center",
         }}
       >
         <div className={classes.container}>
@@ -55,51 +55,36 @@ export default function LoginPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="info" className={classes.cardHeader}>
-                    <h4>Login</h4>
+                    <h4>Log in with </h4>
                     <div className={classes.socialLine}>
-                      <Button
-                        justIcon
-                        href="#pablo"
-                        target="_blank"
-                        color="transparent"
-                        onClick={e => e.preventDefault()}
-                      >
-
-                        <i className={"fab fa-facebook"} />
-                      </Button>
                       <Button
                         justIcon
                         href=""
                         target="_blank"
                         color="transparent"
-                        onClick={e => e.preventDefault()}
+                        onClick={(e) => e.preventDefault()}
                       >
                         <i className={"fab fa-google-plus-g"} />
                       </Button>
                     </div>
                   </CardHeader>
                   <p className={classes.divider}>Don't Have an Account?</p>
+                  <CardFooter className={classes.cardFooter}>
+                    <Button
+                      color="primary"
+                      href="#"
+                      target=""
+                      color="transparent"
+                    >
+                      Register
+                    </Button>
+                  </CardFooter>
                   <CardBody>
-                    <CustomInput
-                      labelText="First Name..."
-                      id="first"
-                      formControlProps={{
-                        fullWidth: true
-                      }}
-                      inputProps={{
-                        type: "text",
-                        endAdornment: (
-                          <InputAdornment position="end">
-                            <People className={classes.inputIconsColor} />
-                          </InputAdornment>
-                        )
-                      }}
-                    />
                     <CustomInput
                       labelText="Email..."
                       id="email"
                       formControlProps={{
-                        fullWidth: true
+                        fullWidth: true,
                       }}
                       inputProps={{
                         type: "email",
@@ -107,14 +92,14 @@ export default function LoginPage(props) {
                           <InputAdornment position="end">
                             <Email className={classes.inputIconsColor} />
                           </InputAdornment>
-                        )
+                        ),
                       }}
                     />
                     <CustomInput
                       labelText="Password"
                       id="pass"
                       formControlProps={{
-                        fullWidth: true
+                        fullWidth: true,
                       }}
                       inputProps={{
                         type: "password",
@@ -125,12 +110,19 @@ export default function LoginPage(props) {
                             </Icon>
                           </InputAdornment>
                         ),
-                        autoComplete: "on"
+                        autoComplete: "on",
                       }}
                     />
                   </CardBody>
                   <CardFooter className={classes.cardFooter}>
-                  <Button color="primary">REGISTER</Button>
+                    <Button
+                      color="primary"
+                      href="libray"
+                      target=""
+                      color="transparent"
+                    >
+                      Login
+                    </Button>
                   </CardFooter>
                 </form>
               </Card>

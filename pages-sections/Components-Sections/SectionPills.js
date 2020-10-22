@@ -6,8 +6,6 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import Quote from "components/Typography/Quote.js";
-import SnackbarContent from "components/Snackbar/SnackbarContent.js";
-import Clearfix from "components/Clearfix/Clearfix.js";
 
 import classNames from "classnames";
 
@@ -15,17 +13,13 @@ import classNames from "classnames";
 import LocationSearchingIcon from "@material-ui/icons/LocationSearching";
 import ErrorOutlineIcon from "@material-ui/icons/ErrorOutline";
 import BugReportIcon from "@material-ui/icons/BugReport";
-import OfflineBoltIcon from '@material-ui/icons/OfflineBolt';
-import PersonIcon from '@material-ui/icons/Person';
-import List from "@material-ui/icons/List";
-import Check from "@material-ui/icons/Check";
-import Warning from "@material-ui/icons/Warning";
+import OfflineBoltIcon from "@material-ui/icons/OfflineBolt";
+import PersonIcon from "@material-ui/icons/Person";
 
 // core components
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import NavPills from "components/NavPills/NavPills.js";
-import SectionLogin from "pages-sections/Components-Sections/SectionLogin.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/componentsSections/pillsStyle.js";
 
@@ -57,7 +51,9 @@ export default function SectionPills() {
                       <span>
                         <div>
                           <Card>
-                            <CardHeader color="info"><b>Malware</b></CardHeader>
+                            <CardHeader color="info">
+                              <b>Malware</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="MyDoom first emerged in 2004 and is still regarded as one of the fastest spreading and most destructive computer viruses of all time – at one point, the worm generated up to a quarter of all emails being sent worldwide.
@@ -69,7 +65,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>Phishing</b></CardHeader>
+                            <CardHeader color="info">
+                              <b>Phishing</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="StormWorm—a type of trojan horse attack and not a worm that sends malware to other computers—tricked people into clicking on an email link to an article about a storm raging across Europe, 230 Dead as storm batters Europe. The hackers also targeted curious users with headlines the U.S. Secretary of State Condoleezza Rice has kicked German Chancellor.
@@ -81,7 +79,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>Man In The Middle</b></CardHeader>
+                            <CardHeader color="info">
+                              <b>Man In The Middle</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="Dutch cybersecurity company hit by man-in-the-middle attack due to no 2Factor Authentification"
@@ -91,8 +91,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>Denial-Of-Service Attack(D.D.o.S)</b>
-                          </CardHeader>
+                            <CardHeader color="info">
+                              <b>Denial-Of-Service Attack(D.D.o.S)</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="The CODE RED worm terrified computer users in 2001, when it took over millions of computers, splashing a page across screens that read: “CODE RED: WELCOME TO WORM.COM HACKED BY CHINESE.” 
@@ -104,8 +105,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>SQL Injection</b>
-                          </CardHeader>
+                            <CardHeader color="info">
+                              <b>SQL Injection</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="Instead of taking advantage of curious, unsuspecting email users, the SLAMMER worm targeted and took advantage of a bug in the code of Microsoft’s SQL servers. It was devastating and spread rapidly across the world, affecting 75,000 servers in ten minutes.
@@ -117,8 +119,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>Zero-Day Exploit</b>
-                          </CardHeader>
+                            <CardHeader color="info">
+                              <b>Zero-Day Exploit</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="The DNC hack is one that we are all familiar with and have covered over the last eight months. The data that was released about the Democratic National Committee (DNC) was a result of a zero-day attack. In fact, there were at least six zero-day vulnerabilities that were exploited to gain access to the data that was stolen. The vulnerabilities were found by state-backed, Russian hackers in Microsoft Windows 10, Adobe Flash, and Java. In order for the vulnerabilities to be exploited, the gang of hackers engaged in a spear-phishing campaign."
@@ -128,8 +131,9 @@ export default function SectionPills() {
                           </Card>
                           <br />
                           <Card>
-                            <CardHeader color="info"><b>DNS Tunneling</b>
-                          </CardHeader>
+                            <CardHeader color="info">
+                              <b>DNS Tunneling</b>
+                            </CardHeader>
                             <CardBody>
                               <Quote
                                 text="IDC reports that 82% of companies worldwide have faced a DNS attack over the past year. The research firm recently published its fifth annual Global DNS Threat Report, which is based on a survey IDC conducted on behalf of DNS security vendor EfficientIP of 904 organizations across the world during the first half of 2019."
@@ -148,42 +152,103 @@ export default function SectionPills() {
                     tabContent: (
                       <span>
                         <p>
-                          <h5><b>Malware</b></h5>is a term used to describe malicious software, including spyware, ransomware, viruses, and worms. Malware breaches a network through a vulnerability, typically when a user clicks a dangerous link or email attachment that then installs risky software. Once inside the system, malware can do the following:
-
-                          Blocks access to key components of the network (ransomware)
-                          Installs malware or additional harmful software
-                          Covertly obtains information by transmitting data from the hard drive (spyware)
-                          Disrupts certain components and renders the system inoperable
+                          <h5>
+                            <b>Malware</b>
+                          </h5>
+                          is a term used to describe malicious software,
+                          including spyware, ransomware, viruses, and worms.
+                          Malware breaches a network through a vulnerability,
+                          typically when a user clicks a dangerous link or email
+                          attachment that then installs risky software. Once
+                          inside the system, malware can do the following:
+                          Blocks access to key components of the network
+                          (ransomware) Installs malware or additional harmful
+                          software Covertly obtains information by transmitting
+                          data from the hard drive (spyware) Disrupts certain
+                          components and renders the system inoperable
                         </p>
                         <br />
                         <p>
-                          <h5><b>Phishing</b></h5>is the practice of sending fraudulent communications that appear to come from a reputable source, usually through email. The goal is to steal sensitive data like credit card and login information or to install malware on the victim’s machine. Phishing is an increasingly common cyberthreat
+                          <h5>
+                            <b>Phishing</b>
+                          </h5>
+                          is the practice of sending fraudulent communications
+                          that appear to come from a reputable source, usually
+                          through email. The goal is to steal sensitive data
+                          like credit card and login information or to install
+                          malware on the victim’s machine. Phishing is an
+                          increasingly common cyberthreat
                         </p>
                         <br />
                         <p>
-                          <h5><b>Man-in-the-middle (MitM) attacks,</b></h5> also known as eavesdropping attacks, occur when attackers insert themselves into a two-party transaction. Once the attackers interrupt the traffic, they can filter and steal data.
-
-                          Two common points of entry for MitM attacks:
-
-                          1. On unsecure public Wi-Fi, attackers can insert themselves between a visitor’s device and the network. Without knowing, the visitor passes all information through the attacker.
-
-                          2. Once malware has breached a device, an attacker can install software to process all of the victim’s information.
+                          <h5>
+                            <b>Man-in-the-middle (MitM) attacks,</b>
+                          </h5>{" "}
+                          also known as eavesdropping attacks, occur when
+                          attackers insert themselves into a two-party
+                          transaction. Once the attackers interrupt the traffic,
+                          they can filter and steal data. Two common points of
+                          entry for MitM attacks: 1. On unsecure public Wi-Fi,
+                          attackers can insert themselves between a visitor’s
+                          device and the network. Without knowing, the visitor
+                          passes all information through the attacker. 2. Once
+                          malware has breached a device, an attacker can install
+                          software to process all of the victim’s information.
                         </p>
                         <br />
                         <p>
-                         <h5><b>D.D.o.S</b></h5> A denial-of-service attack floods systems, servers, or networks with traffic to exhaust resources and bandwidth. As a result, the system is unable to fulfill legitimate requests. Attackers can also use multiple compromised devices to launch this attack. This is known as a distributed-denial-of-service (DDoS) attack.
+                          <h5>
+                            <b>D.D.o.S</b>
+                          </h5>{" "}
+                          A denial-of-service attack floods systems, servers, or
+                          networks with traffic to exhaust resources and
+                          bandwidth. As a result, the system is unable to
+                          fulfill legitimate requests. Attackers can also use
+                          multiple compromised devices to launch this attack.
+                          This is known as a distributed-denial-of-service
+                          (DDoS) attack.
                         </p>
                         <br />
                         <p>
-                         <h5><b>SQL Injection</b></h5> or a Structured Query Language (SQL) injection occurs when an attacker inserts malicious code into a server that uses SQL and forces the server to reveal information it normally would not. An attacker could carry out a SQL injection simply by submitting malicious code into a vulnerable website search box.
+                          <h5>
+                            <b>SQL Injection</b>
+                          </h5>{" "}
+                          or a Structured Query Language (SQL) injection occurs
+                          when an attacker inserts malicious code into a server
+                          that uses SQL and forces the server to reveal
+                          information it normally would not. An attacker could
+                          carry out a SQL injection simply by submitting
+                          malicious code into a vulnerable website search box.
                         </p>
                         <br />
                         <p>
-                          <h5><b>A zero-day exploit</b></h5> hits after a network vulnerability is announced but before a patch or solution is implemented. Attackers target the disclosed vulnerability during this window of time. Zero-day vulnerability threat detection requires constant awareness.
+                          <h5>
+                            <b>A zero-day exploit</b>
+                          </h5>{" "}
+                          hits after a network vulnerability is announced but
+                          before a patch or solution is implemented. Attackers
+                          target the disclosed vulnerability during this window
+                          of time. Zero-day vulnerability threat detection
+                          requires constant awareness.
                         </p>
                         <br />
                         <p>
-                          <h5><b>DNS tunneling</b></h5> utilizes the DNS protocol to communicate non-DNS traffic over port 53. It sends HTTP and other protocol traffic over DNS. There are various, legitimate reasons to utilize DNS tunneling. However, there are also malicious reasons to use DNS Tunneling VPN services. They can be used to disguise outbound traffic as DNS, concealing data that is typically shared through an internet connection. For malicious use, DNS requests are manipulated to exfiltrate data from a compromised system to the attacker’s infrastructure. It can also be used for command and control callbacks from the attacker’s infrastructure to a compromised system.
+                          <h5>
+                            <b>DNS tunneling</b>
+                          </h5>{" "}
+                          utilizes the DNS protocol to communicate non-DNS
+                          traffic over port 53. It sends HTTP and other protocol
+                          traffic over DNS. There are various, legitimate
+                          reasons to utilize DNS tunneling. However, there are
+                          also malicious reasons to use DNS Tunneling VPN
+                          services. They can be used to disguise outbound
+                          traffic as DNS, concealing data that is typically
+                          shared through an internet connection. For malicious
+                          use, DNS requests are manipulated to exfiltrate data
+                          from a compromised system to the attacker’s
+                          infrastructure. It can also be used for command and
+                          control callbacks from the attacker’s infrastructure
+                          to a compromised system.
                         </p>
                       </span>
                     ),
@@ -273,39 +338,39 @@ export default function SectionPills() {
                     tabIcon: OfflineBoltIcon,
                     tabContent: (
                       <span>
-                        <p>
-                        </p>
+                        <p></p>
                         <br />
-                        <p>
-                        </p>
+                        <p></p>
                         <br />
-                        <p>
-                        </p>
+                        <p></p>
                       </span>
                     ),
                   },
                   {
-
                     tabButton: "Personalised",
                     tabIcon: PersonIcon,
                     tabContent: (
                       <span>
                         <p>
-                          Love what you see wish to personalize your own security news,tips, and software? Login/Signup and starting protecting yourself
+                          Love what you see wish to personalize your own
+                          security news,tips, and software? Login/Signup and
+                          starting protecting yourself
                         </p>
                         <div className={classes.section}>
                           <div className={classes.container}>
                             <div className={classNames(classes)}>
                               <GridContainer>
-                                <SectionLogin />
-
+                                <span>
+                                  <p></p>
+                                  <br />
+                                  <p></p>
+                                  <br />
+                                  <p></p>
+                                </span>
                               </GridContainer>
                             </div>
                           </div>
                         </div>
-
-
-
                       </span>
                     ),
                   },
