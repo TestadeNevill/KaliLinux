@@ -16,7 +16,7 @@ import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
 
-import team1 from "assets/img/faces/kali-square.png";
+import team1 from "assets/img/faces/profile.png";
 import team2 from "assets/img/faces/kali-square.png";
 import team3 from "assets/img/faces/kali-square.png";
 

@@ -39,12 +39,12 @@ export default function HeaderLinks(props) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link href="#">
+            <Link href="feedback">
               <a className={classes.dropdownLink}>Feedback</a>
             </Link>,
             <a
               href="#"
-              target="_blank"
+              target=""
               className={classes.dropdownLink}
             >
              Support
@@ -56,7 +56,7 @@ export default function HeaderLinks(props) {
         <Button
           href="components "
           color="transparent"
-          target="_blank"
+          target=""
           className={classes.navLink}
         >
           <AccountTreeIcon className={classes.icons}/> About us
@@ -66,7 +66,7 @@ export default function HeaderLinks(props) {
         <Button
           href="login"
           color="transparent"
-          target="_blank"
+          target=""
           className={classes.navLink}
         >
           <VpnKeyIcon className={classes.icons} /> Login

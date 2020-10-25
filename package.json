@@ -24,10 +24,18 @@
   "author": "SWD Information Security",
   "license": "MIT",
   "dependencies": {
+    "@availity/api-axios": "^5.5.9",
+    "@availity/api-core": "^6.6.4",
+    "@availity/feedback": "^5.4.15",
+    "@availity/localstorage-core": "^2.6.1",
     "@material-ui/core": "4.9.13",
     "@material-ui/icons": "^4.9.1",
     "@zeit/next-sass": "1.0.1",
+    "axios": "^0.19.2",
     "classnames": "2.2.6",
+    "dom": "0.0.3",
+    "feeder-react-feedback": "0.0.6",
+    "formik": "^2.0.1",
     "moment": "2.25.3",
     "next": "9.3.6",
     "next-compose-plugins": "2.2.0",
@@ -37,13 +45,15 @@
     "nouislider": "14.4.0",
     "path": "0.12.7",
     "prop-types": "15.7.2",
-    "react": "16.13.1",
+    "react": "^16.14.0",
     "react-datetime": "2.16.3",
     "react-dom": "16.13.1",
     "react-google-login": "^5.1.22",
     "react-slick": "0.25.2",
     "react-swipeable-views": "0.13.9",
+    "reactstrap": "^8.0.0",
     "styled-components": "5.1.0",
-    "webpack": "4.43.0"
+    "webpack": "4.43.0",
+    "yup": "^0.27.0"
   }
 }
