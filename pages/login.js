@@ -19,6 +19,10 @@ import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import GoogleBtn from 'components/GoogleBtn/Login.js';
+// import Login from './components/Login';
+// import Logout from './components/Logout';
+// import LoginHooks from './components/LoginHooks';
+// import LogoutHooks from './components/LogoutHooks';
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
 import image from "assets/img/login.gif";
@@ -56,18 +60,11 @@ export default function LoginPage(props) {
                 <form className={classes.form}>
                   <CardHeader color="info" className={classes.cardHeader}>
                     <h4>Log in with </h4>
-                    <div className={classes.socialLine}>
-                      <Button
-                        justIcon
-                        href=""
-                        target="_blank"
-                        color="transparent"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className={"fab fa-google-plus-g"} />
-                        <GoogleBtn />
-                      </Button>
-                    </div>
+
+                    <GoogleBtn />
+
+
+
                   </CardHeader>
                   <p className={classes.divider}>Don't Have an Account?</p>
                   <CardFooter className={classes.cardFooter}>
