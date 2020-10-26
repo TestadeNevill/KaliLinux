@@ -18,7 +18,7 @@ import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
-
+import GoogleBtn from 'components/GoogleBtn/Login.js';
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
 import image from "assets/img/login.gif";
@@ -65,6 +65,7 @@ export default function LoginPage(props) {
                         onClick={(e) => e.preventDefault()}
                       >
                         <i className={"fab fa-google-plus-g"} />
+                        <GoogleBtn />
                       </Button>
                     </div>
                   </CardHeader>
@@ -128,6 +129,7 @@ export default function LoginPage(props) {
               </Card>
             </GridItem>
           </GridContainer>
+
         </div>
       </div>
     </div>
