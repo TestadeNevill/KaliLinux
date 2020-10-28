@@ -46,10 +46,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Front End Developer (Click below for my Github)
+                 <a href="#pablo">https://www.github.com/jcbas99</a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -89,10 +87,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Front End Developer (Click below for my Github)
+                 <a href="#pablo">https://www.github.com/waymg</a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -125,10 +121,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Backend Developer (Click below for my Github)
+                 <a href="#pablo">https://www.github.com/TestadeNevill</a>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
