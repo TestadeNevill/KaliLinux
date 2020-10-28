@@ -22,6 +22,7 @@ import Head from "next/head";
 import Router from "next/router";
 import "assets/scss/nextjs-material-kit.scss?v=1.1.0";
 
+
 Router.events.on("routeChangeStart", url => {
   console.log(`Loading: ${url}`);
 });

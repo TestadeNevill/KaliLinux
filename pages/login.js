@@ -18,7 +18,10 @@ import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
-
+// import LoginHooks from "components/GoogleBtn/LoginHooks.js";
+// import LogoutHooks from "components/GoogleBtn/LogoutHooks.js";
+import GoogleBtn from "components/GoogleBtn/Login.js";
+// import Logout from "components/GoogleBtn/Logout.js";
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
 import image from "assets/img/login.gif";
@@ -27,7 +30,7 @@ const useStyles = makeStyles(styles);
 
 export default function LoginPage(props) {
   const [cardAnimaton, setCardAnimation] = React.useState("cardHidden");
-  setTimeout(function() {
+  setTimeout(function () {
     setCardAnimation("");
   }, 700);
   const classes = useStyles();
@@ -57,25 +60,9 @@ export default function LoginPage(props) {
                   <CardHeader color="info" className={classes.cardHeader}>
                     <h4>Login</h4>
                     <div className={classes.socialLine}>
-                      <Button
-                        justIcon
-                        href="#pablo"
-                        target="_blank"
-                        color="transparent"
-                        onClick={e => e.preventDefault()}
-                      >
 
-                        <i className={"fab fa-facebook"} />
-                      </Button>
-                      <Button
-                        justIcon
-                        href=""
-                        target="_blank"
-                        color="transparent"
-                        onClick={e => e.preventDefault()}
-                      >
-                        <i className={"fab fa-google-plus-g"} />
-                      </Button>
+                      <GoogleBtn />
+
                     </div>
                   </CardHeader>
                   <p className={classes.divider}>Don't Have an Account?</p>
@@ -130,7 +117,7 @@ export default function LoginPage(props) {
                     />
                   </CardBody>
                   <CardFooter className={classes.cardFooter}>
-                  <Button color="primary">REGISTER</Button>
+                    <Button color="primary">REGISTER</Button>
                   </CardFooter>
                 </form>
               </Card>
