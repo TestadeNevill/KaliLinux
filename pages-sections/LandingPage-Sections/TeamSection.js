@@ -17,8 +17,8 @@ import CardFooter from "components/Card/CardFooter.js";
 import styles from "assets/jss/nextjs-material-kit/pages/landingPageSections/teamStyle.js";
 
 import team1 from "assets/img/faces/profile.png";
-import team2 from "assets/img/faces/kali-square.png";
-import team3 from "assets/img/faces/kali-square.png";
+import team2 from "assets/img/faces/w.jpg";
+import team3 from "assets/img/faces/TESTAINSPACE460.jpg";
 
 const useStyles = makeStyles(styles);
 
@@ -42,14 +42,12 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Sebastian
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Designer</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Front End Developer
+                 <p><a href="#pablo">https://www.github.com/jcbas99</a></p>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -89,10 +87,8 @@ export default function TeamSection() {
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  Front End Developer
+                 <p><a href="#pablo">https://www.github.com/waymg</a></p>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
@@ -121,14 +117,12 @@ export default function TeamSection() {
               <h4 className={classes.cardTitle}>
                 Testa De Nevill
                 <br />
-                <small className={classes.smallTitle}>Model</small>
+                <small className={classes.smallTitle}>Design</small>
               </h4>
               <CardBody>
                 <p className={classes.description}>
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                Backend Developer
+                 <p><a href="#pablo">https://www.github.com/TestadeNevill</a></p>
                 </p>
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
