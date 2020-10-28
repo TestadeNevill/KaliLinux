@@ -24,7 +24,11 @@ class GoogleBtn extends Component {
         if (response.accessToken) {
             this.setState(state => ({
                 isLogined: true,
+<<<<<<< HEAD
                 accessToken: response.accessToken
+=======
+                accessToken: console.log(response.accessToken)
+>>>>>>> WayBranch
             }));
         }
     }

@@ -18,11 +18,18 @@ import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
+<<<<<<< HEAD
 import GoogleBtn from 'components/GoogleBtn/Login.js';
 // import Login from './components/Login';
 // import Logout from './components/Logout';
 // import LoginHooks from './components/LoginHooks';
 // import LogoutHooks from './components/LogoutHooks';
+=======
+// import LoginHooks from "components/GoogleBtn/LoginHooks.js";
+// import LogoutHooks from "components/GoogleBtn/LogoutHooks.js";
+import GoogleBtn from "components/GoogleBtn/Login.js";
+// import Logout from "components/GoogleBtn/Logout.js";
+>>>>>>> WayBranch
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
 import image from "assets/img/login.gif";
@@ -59,12 +66,21 @@ export default function LoginPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="info" className={classes.cardHeader}>
+<<<<<<< HEAD
                     <h4>Log in with </h4>
 
                     <GoogleBtn />
 
 
 
+=======
+                    <h4>Login</h4>
+                    <div className={classes.socialLine}>
+
+                      <GoogleBtn />
+
+                    </div>
+>>>>>>> WayBranch
                   </CardHeader>
                   <p className={classes.divider}>Don't Have an Account?</p>
                   <CardFooter className={classes.cardFooter}>
@@ -113,6 +129,7 @@ export default function LoginPage(props) {
                     />
                   </CardBody>
                   <CardFooter className={classes.cardFooter}>
+<<<<<<< HEAD
                     <Button
                       color="primary"
                       href="libray"
@@ -121,6 +138,9 @@ export default function LoginPage(props) {
                     >
                       Login
                     </Button>
+=======
+                    <Button color="primary">REGISTER</Button>
+>>>>>>> WayBranch
                   </CardFooter>
                 </form>
               </Card>
