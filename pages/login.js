@@ -18,7 +18,10 @@ import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
 import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
-
+// import LoginHooks from "components/GoogleBtn/LoginHooks.js";
+// import LogoutHooks from "components/GoogleBtn/LogoutHooks.js";
+import GoogleBtn from "components/GoogleBtn/Login.js";
+// import Logout from "components/GoogleBtn/Logout.js";
 import styles from "assets/jss/nextjs-material-kit/pages/loginPage.js";
 
 import image from "assets/img/login.gif";
@@ -55,17 +58,11 @@ export default function LoginPage(props) {
               <Card className={classes[cardAnimaton]}>
                 <form className={classes.form}>
                   <CardHeader color="info" className={classes.cardHeader}>
-                    <h4>Log in with </h4>
+                    <h4>Login</h4>
                     <div className={classes.socialLine}>
-                      <Button
-                        justIcon
-                        href=""
-                        target="_blank"
-                        color="transparent"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        <i className={"fab fa-google-plus-g"} />
-                      </Button>
+
+                      <GoogleBtn />
+
                     </div>
                   </CardHeader>
                   <p className={classes.divider}>Don't Have an Account?</p>
@@ -115,21 +112,15 @@ export default function LoginPage(props) {
                     />
                   </CardBody>
                   <CardFooter className={classes.cardFooter}>
-                    <Button
-                      color="primary"
-                      href="libray"
-                      target=""
-                      color="transparent"
-                    >
-                      Login
-                    </Button>
+                    <Button color="primary">REGISTER</Button>
                   </CardFooter>
                 </form>
               </Card>
             </GridItem>
           </GridContainer>
+
         </div>
       </div>
-    </div>
+    </div >
   );
 }
