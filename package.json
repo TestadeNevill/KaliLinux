@@ -45,11 +45,7 @@
     "nouislider": "14.4.0",
     "path": "0.12.7",
     "prop-types": "15.7.2",
-<<<<<<< HEAD
-    "react": "^16.14.0",
-=======
     "react": "^16.13.1",
->>>>>>> WayBranch
     "react-datetime": "2.16.3",
     "react-dom": "16.13.1",
     "react-google-login": "^5.1.22",
